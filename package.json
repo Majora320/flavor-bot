@@ -1,0 +1,27 @@
+{
+  "name": "flavor-bot",
+  "version": "0.0.0",
+  "description": "A simple bot to choose Unix flavors on the Unix-like server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Majora320/distro-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "distro"
+  ],
+  "author": "Moses Miller <Majora320@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Majora320/distro-bot/issues"
+  },
+  "homepage": "https://github.com/Majora320/distro-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
