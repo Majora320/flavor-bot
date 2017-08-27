@@ -11,10 +11,10 @@ client.on('message', message => {
         let flavor = message.content.split(' ').slice(1);
 
         if (flavor.length < 1) {
-            message.reply(config['specifyDistroReply']);
+            message.reply(config['specifyFlavorReply']);
             return;
         } else if (flavor.length > 1) {
-            message.reply(config['moreThenOneDistroReply']);
+            message.reply(config['moreThenOneFlavorReply']);
             return;
         }
         

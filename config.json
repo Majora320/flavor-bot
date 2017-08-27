@@ -1,7 +1,7 @@
 {
     "command": "!unixflavor",
-    "specifyDistroReply": "you have to specify a flavor",
-    "moreThenOneDistroReply": "you can't specify more then one flavor",
+    "specifyFlavorReply": "you have to specify a flavor",
+    "moreThenOneFlavorReply": "you can't specify more then one flavor",
     "flavorDoesNotExistReply": "that flavor does not exist",
     "roleDoesNotExistReply": "that flavor exists in the configuration, but not in the guild. Please contact your server admins and make them fix it",
     "doneReply": "done",
